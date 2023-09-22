@@ -47,19 +47,43 @@ Además de estas habilidades, soy un desarrollador Full Stack con un enfoque esp
                         <Carousel responsive={responsive} infinite={true} className="skill-slider">
                             <div className="item">
                                 <img src={meter1} alt="image"/>
-                                <h5>Desarrollo Web</h5>
+                                <h5>Node.js</h5>
                             </div>
                             <div className="item">
                                 <img src={meter2} alt="image"/>
-                                <h5>Trabajo en Equipo</h5>
+                                <h5>React</h5>
                             </div>
                             <div className="item">
                                 <img src={meter3} alt="image"/>
-                                <h5>Solución de problemas</h5>
+                                <h5>MySQL</h5>
                             </div>
                             <div className="item">
                                 <img src={meter1} alt="image"/>
-                                <h5>Gestión de Proyectos</h5>
+                                <h5>Express</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter1} alt="image"/>
+                                <h5>Sequelize</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter1} alt="image"/>
+                                <h5>MongoDB</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter1} alt="image"/>
+                                <h5>Javascript</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter1} alt="image"/>
+                                <h5>Git</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter1} alt="image"/>
+                                <h5>css3</h5>
+                            </div>
+                            <div className="item">
+                                <img src={meter1} alt="image"/>
+                                <h5>html5</h5>
                             </div>
                         </Carousel>
                     </div>
