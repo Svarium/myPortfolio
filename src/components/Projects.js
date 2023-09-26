@@ -47,7 +47,7 @@ const lastProjects = projects.slice(2,4)
                     <TrackVisibility>
                     {({isvisible}) =>
                     <div className={isvisible ? "animated__animated animate_slideInUp" : ""}>
-                    <h2> ⌨️Mis Projectos💻 </h2>
+                    <h2> ⌨️Mis Proyectos💻 </h2>
                     <p>Te invito a explorar mi sección de proyectos, donde puedes descubrir una selección de trabajos que reflejan mi enfoque serio y dedicado. Desde aplicaciones web hasta soluciones de software, cada proyecto cuenta una historia de habilidad y compromiso.</p>
                     <p><strong>
                     ¡Échale un vistazo para conocer más sobre mi trabajo y experiencia!
