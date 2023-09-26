@@ -12,8 +12,8 @@ export const Banner = () => {
     const [isDeleting, setIsDeleting] = useState(false);
     const toRotate = ["Desarrollador Full Stack Node.js", ];//aca puedo agregar mas cosas sobre lo que hago
     const [text, setText] = useState('');
-    const [delta, setDelta] = useState(300 - Math.random() *100);
-    const period = 2000;
+    const [delta, setDelta] = useState(150 - Math.random() *100);
+    const period = 500;
 
     useEffect(() => {
         let ticker = setInterval(() => {
@@ -25,13 +25,13 @@ export const Banner = () => {
     const tick = () => {
         let i = loopNum % toRotate.length;
         let fullText = toRotate[i];
-        let updatedText = isDeleting ? fullText.substring(0, text.length -1) : fullText.substring(0, text.length +1);
+        let updatedText = /* isDeleting ? fullText.substring(0, text.length -1) : */ fullText.substring(0, text.length +1);
 
         setText(updatedText);
 
-        if (isDeleting) {
+       /*  if (isDeleting) {
             setDelta(prevDelta => prevDelta /2)
-        }
+        } */
 
         if(!isDeleting && updatedText === fullText){
             setIsDeleting(true);
@@ -54,8 +54,8 @@ export const Banner = () => {
                       <div className={isVisible ? "animated_animate__fadeIn" : "" }>  
                     <span className="tagline">Bienvenido a mi Potafolio</span>
                     <h1>{'Ezequiel Muñoz - '}<span className="wrap">{text}</span></h1>
-                    <p className="text-justify">Durante los últimos 8 años, me sumergí en el mundo de la informática del Servicio Penitenciario Federal. Hice de todo: arreglé compus, cuidé servidores, instalé y configure redes inalambricas y ahora me la paso desarrollando el sitio web oficial. Soy un amante de la tecnología y siempre quiero aprender más. Estoy aquí para conectar con otros techies, compartir experiencias y, ¡afrontar desafíos emocionantes! 😄🚀</p>
-            <button onClick={() => console.log('connect')}>Let´s connect <ArrowRightCircle size={25} /> </button>
+                    <p className="text-justify">Durante los últimos 8 años, me sumergí en el mundo de la informática del Servicio Penitenciario Federal. Hice de todo: arreglé compus, cuidé servidores, instalé y configure redes inalambricas y ahora me la paso codeando! Soy un amante de la tecnología y siempre quiero aprender más. Estoy aquí para conectar con otros techies, compartir experiencias y, ¡afrontar desafíos emocionantes! 😄🚀</p>
+            {/* <button onClick={() => console.log('connect')}>Let´s connect <ArrowRightCircle size={25} /> </button> */}
                     </div> }
                         </TrackVisibility>
                     </Col>

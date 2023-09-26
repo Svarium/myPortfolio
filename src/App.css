@@ -46,7 +46,7 @@ p, a, li, button, ul {
   margin: 0;
   padding: 0;
   line-height: normal;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 a:hover {
@@ -361,6 +361,9 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   text-align: center;
   width: 56%;
 }
+
+
+
 .project .nav.nav-pills {
   width: 72%;
   margin: 0 auto;
@@ -542,12 +545,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 /************ Footer Css ************/
 .footer {
   padding: 0 0 50px 0;
+  
   background-image: url('./assets/img/footer-bg.png');
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-.newsletter-bx {
+/* .newsletter-bx {
   background: #FFFFFF;
   border-radius: 55px;
   color: #121212;
@@ -606,10 +610,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-weight: 500;
   letter-spacing: 0.5px;
   border-radius: 18px;
-}
-.footer img {
-  width: 26%;
-}
+} */
+
 .footer p {
   font-weight: 400;
   font-size: 14px;
@@ -624,4 +626,37 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   border-radius: 100%;
   object-fit: cover;
   box-shadow: 2px 2px 5px rgba(10, 10, 10, 0.3) !important;
+}
+
+
+/* Estilos para el fondo negro y texto blanco en el componente Accordion */
+.custom-accordion {
+  background-color: rgb(212, 18, 18);
+}
+
+.custom-header {
+  background-color: black;
+  color: white;
+}
+
+.custom-accordion .accordion-body {
+  background-color: black;
+  color: white;
+}
+
+.accordion-button:not(.collapsed) {
+  color: white !important;
+  background-color: #0e0e0e !important;
+  box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+}
+
+.accordion-button.collapsed {
+  color: white !important;
+  background-color: #0e0e0e;
+  box-shadow: inset 0 calc(-1 * var(--bs-accordion-border-width)) 0 var(--bs-accordion-border-color);
+}
+
+.visita {
+  color: #993bd8;
+  font-weight: bolder;
 }
