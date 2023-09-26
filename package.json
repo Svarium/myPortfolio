@@ -1,5 +1,6 @@
 {
   "name": "my-portfolio",
+  "homepage": "https://svarium.github.io/myPortfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -21,8 +22,8 @@
     "react-multi-carousel": "^2.8.4",
     "react-on-screen": "^2.1.1",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4",
-    "homepage": "https://Svarium.github.io/myPortfolio"
+    "web-vitals": "^2.1.4"
+   
   },
   "scripts": {
     "start": "react-scripts start",
