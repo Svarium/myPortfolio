@@ -22,7 +22,7 @@
     "react-on-screen": "^2.1.1",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4",
-    "homepage": "https://svarium.github.io/myPortfolio"
+    "homepage": "https://Svarium.github.io/myPortfolio"
   },
   "scripts": {
     "start": "react-scripts start",
