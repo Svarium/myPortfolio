@@ -1,6 +1,6 @@
 import { useState, useEffect} from "react";
 import {Navbar, Container, Nav } from "react-bootstrap";
-import logo from '../assets/img/WhatsApp Image 2023-09-22 at 17.36.45.jpeg';
+import contactIcon from '../assets/img/WhatsApp Image 2023-09-22 at 17.36.45.jpeg';
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/nav-icon3.svg';
@@ -52,7 +52,7 @@ export const NavBar = () => {
                 <a href="https://www.instagram.com/tomatedespachurrado/?hl=es"><img src={navIcon3} alt=""/></a>
                 <a href="https://github.com/Svarium"><img src={navIcon4} alt=""/></a>
                 </div>
-                <a href="https://api.whatsapp.com/send?phone=541125203244&text=hola,%20¿qué%20tal%20estás?"><button className="vvd"><span>Contacta conmigo</span></button></a>
+                <a href="https://api.whatsapp.com/send?phone=541125203244&text=hola,%20¿qué%20tal%20estás?"><button className="vvd"><i class="fa-brands fa-whatsapp fa-xl"></i> <span className="ms-1"> Contacta conmigo</span></button></a>
             </span>
           </Navbar.Collapse>
         </Container>

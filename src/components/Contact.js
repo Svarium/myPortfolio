@@ -1,6 +1,6 @@
 import { useState } from "react"
 import { Container, Row, Col } from "react-bootstrap";
-import contactImg from "../assets/img/contact-img.svg";
+import contactImg from "../assets/img/Get in touch-amico.svg";
 
 export const Contact = () => {
 
@@ -13,7 +13,7 @@ export const Contact = () => {
     }
 
     const [formDetails, setFormDetails] = useState(forminitialDetails)
-    const [buttonText, setButtonText] = useState('Send')
+    const [buttonText, setButtonText] = useState('Enviar')
     const [status, setStatus] = useState({})
 
     const onFormUpdate = (category, value) => {
@@ -23,25 +23,6 @@ export const Contact = () => {
         })
     }
 
-    const handleSubmit = async(e) => {
-        e.preventDefault();
-        setButtonText('Sending...')
-        let response = await fetch('http://localhost:5000/contact', {
-          method:"POST",
-          headers:{
-            "Content-Type" : "Aplication/json;charset=utf-8"
-          },
-          body: JSON.stringify(formDetails) , 
-        });
-        setButtonText("Send");
-        let result = response.json();
-        setFormDetails(forminitialDetails)
-        if (result.code === 200) {
-            setStatus({success:true, message:'Message sent successfully'});
-        } else {
-            setStatus({success:false, message:'Something went wrong, please try afain later'})
-        }
-    };
 
     return (
         <section className="contact" id="connect"> 
@@ -51,20 +32,21 @@ export const Contact = () => {
                         <img src={contactImg} alt="Contact Us"/>
                     </Col>
                     <Col md={6}>
-                        <h2>Get in Touch</h2>
-                        <form>
-                            <Row onSubmit={handleSubmit}>
-                                <Col sm={6} className="px-1">
-                                    <input type="text" value={formDetails.firstName} placeholder="First Name" onChange={(e) => onFormUpdate('firstName', e.target.value)}></input></Col>
+                        <h2>Contactame</h2>
+                        <form action="mailto:svariumfoo@gmail.com" method="post" enctype="text/plain">
+                            <Row >
+                              {/*   <Col sm={6} className="px-1">
+                                    <input type="text" placeholder="Nombre" name="Nombre" ></input></Col>
 
-                                <Col sm={6} className="px-1"> <input type="text" value={formDetails.lastName} placeholder="Last Name" onChange={(e) => onFormUpdate('lastName', e.target.value)}></input></Col>
+                                <Col sm={6} className="px-1"> <input type="text" name="Apellido" placeholder="Apellido" 
+                                ></input></Col>
 
-                                <Col sm={6} className="px-1"> <input type="email" value={formDetails.email} placeholder="Email" onChange={(e) => onFormUpdate('email', e.target.value)}></input></Col>
+                                <Col sm={6} className="px-1"> <input type="email"  placeholder="Email" name="Email"></input></Col>
 
-                                <Col sm={6} className="px-1"> <input type="tel" value={formDetails.phone} placeholder="Phone" onChange={(e) => onFormUpdate('phone', e.target.value)}></input></Col>
+                                <Col sm={6} className="px-1"> <input type="tel"  placeholder="Teléfono" name="Telefono" ></input></Col> */}
 
                                 <Col>
-                                    <textarea row="6" value={formDetails.message} placeholder="Message" onChange={(e) => onFormUpdate('message', e.target.value)}></textarea>
+                                    <textarea row="6"  placeholder="Mensaje" name="Mensaje"></textarea>
                                     <button type="submit"><span> {buttonText}</span></button>
                                 </Col>
                                 {

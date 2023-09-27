@@ -43,7 +43,7 @@ Mis habilidades blandas incluyen una fuerte ética de trabajo, capacidad para ge
                         </p>
 
                         {/* PODRIA ARMAR UN ARRAY PARA SETEAR EL ESTADO Y MAPEARLO PARA MOSTRAR TODOS LOS ELEMENTOS */}
-                        <Carousel responsive={responsive} infinite={true} className="skill-slider">
+                        <Carousel responsive={responsive} infinite={true} className="skill-slider align-content-center align-items-center text-center">
                             <div className="item">
                                 <img src={meter1} alt="image"/>
                                 <h5>Node.js</h5>
