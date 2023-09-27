@@ -33,14 +33,13 @@ export const Skills = () => {
             <Container>
                 <Row>
                     <Col>
-                    <div className="skill-bx text-justify">
+                    <div className="skill-bx ">
                         <h2>Skills</h2>
                         <p >
-                        Soy un apasionado de la tecnología con experiencia en una amplia gama de habilidades. He trabajado en el armado y reparación de PC, así como en el mantenimiento de impresoras. También tengo experiencia en la instalación y actualización de software y sistemas operativos, y en mi trayectoria, he gestionado incidencias y brindado soporte técnico de alta calidad.
+                       
+Soy un apasionado de la tecnología con una amplia gama de habilidades tanto técnicas como blandas. Tengo experiencia en áreas que van desde el armado y reparación de PC, hasta la administración de servidores y el desarrollo Full Stack, con un enfoque especial en Node.js. Además, me siento cómodo trabajando con tecnologías como Express.js, MongoDB, React.js y MySQL.
 
-Además, cuento con experiencia en la administración, mantenimiento y seguridad de servidores, así como en el diseño, configuración y mantenimiento de redes informáticas.
-
-Además de estas habilidades, soy un desarrollador Full Stack con un enfoque especial en Node.js. Mi conocimiento en Node.js se complementa con experiencia en tecnologías relacionadas, como Express.js, MongoDB, React.js y MySQL. Mi principal motivación es aportar soluciones a problemas existentes, requerimientos y necesidades de clientes y/o usuarios
+Mis habilidades blandas incluyen una fuerte ética de trabajo, capacidad para gestionar incidencias y ofrecer soporte técnico de alta calidad. También tengo experiencia en la resolución de problemas y la satisfacción del cliente es mi máxima prioridad.
                         </p>
 
                         {/* PODRIA ARMAR UN ARRAY PARA SETEAR EL ESTADO Y MAPEARLO PARA MOSTRAR TODOS LOS ELEMENTOS */}

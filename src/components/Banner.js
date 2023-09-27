@@ -52,9 +52,9 @@ export const Banner = () => {
                         <TrackVisibility>
                         {({isVisible}) => 
                       <div className={isVisible ? "animated_animate__fadeIn" : "" }>  
-                    <span className="tagline">Bienvenido a mi Potafolio</span>
+                    <span className="tagline">Bienvenido a mi Portafolio</span>
                     <h1>{'Ezequiel Muñoz - '}<span className="wrap">{text}</span></h1>
-                    <p className="text-justify">Durante los últimos 8 años, me sumergí en el mundo de la informática del Servicio Penitenciario Federal. Hice de todo: arreglé compus, cuidé servidores, instalé y configure redes inalambricas y ahora me la paso codeando! Soy un amante de la tecnología y siempre quiero aprender más. Estoy aquí para conectar con otros techies, compartir experiencias y, ¡afrontar desafíos emocionantes! 😄🚀</p>
+                    <p className="text-justify">Durante los últimos 8 años, me sumergí en el mundo de la informática trabajando en el Servicio Penitenciario Federal. Hice de todo: arreglé compus, cuidé servidores, instalé y configure redes inalambricas ¡y ahora me la paso codeando! Soy un amante de la tecnología y siempre quiero aprender más. Estoy aquí para conectar con otros techies, compartir experiencias y, ¡afrontar desafíos emocionantes! 😄🚀</p>
             {/* <button onClick={() => console.log('connect')}>Let´s connect <ArrowRightCircle size={25} /> </button> */}
                     </div> }
                         </TrackVisibility>

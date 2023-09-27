@@ -1,7 +1,7 @@
-import projImg1 from "../assets/img/project-img1.png";
-import projImg2 from "../assets/img/project-img2.png";
-import projImg3 from "../assets/img/project-img3.png";
-import projImg4 from "../assets/img/project-img4.png";
+import projImg1 from "../assets/img/3_B.jpg";
+import projImg2 from "../assets/img/books.jpg";
+import projImg3 from "../assets/img/drinks.jpg";
+import projImg4 from "../assets/img/cine.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import { Container, Row, Col, Tab, Nav, TabContent } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
@@ -50,7 +50,7 @@ const lastProjects = projects.slice(2,4)
                     <h2> ⌨️Mis Proyectos💻 </h2>
                     <p>Te invito a explorar mi sección de proyectos, donde puedes descubrir una selección de trabajos que reflejan mi enfoque serio y dedicado. Desde aplicaciones web hasta soluciones de software, cada proyecto cuenta una historia de habilidad y compromiso.</p>
                     <p><strong>
-                    ¡Échale un vistazo para conocer más sobre mi trabajo y experiencia!
+                    ¡Échale un vistazo para conocer más sobre mi trabajo!
                     </strong>                 
                     </p>
                     </div>}
@@ -58,13 +58,13 @@ const lastProjects = projects.slice(2,4)
                     <Tab.Container id="projects-tabs" defaultActiveKey="first">
                     <Nav variant="pills"  className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab" >
                    <Nav.Item>
-                    <Nav.Link eventKey="first">1 - Proyectos</Nav.Link>
+                    <Nav.Link eventKey="first">Proyectos</Nav.Link>
                    </Nav.Item>
                    <Nav.Item>
-                    <Nav.Link eventKey="second">2 - Proyectos </Nav.Link>
+                    <Nav.Link eventKey="second"> Ver más </Nav.Link>
                    </Nav.Item>
                    <Nav.Item>
-                    <Nav.Link eventKey="third"> 3 - Detalles</Nav.Link>
+                    <Nav.Link eventKey="third">Detalles</Nav.Link>
                    </Nav.Item>
                     </Nav>
                     <TabContent>
