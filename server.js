@@ -8,10 +8,10 @@ const cors = require("cors");
 const app = express();
 const port = process.env.PORT || 3001;
 const corsOptions = {
-    origin: 'https://svarium.github.io/myPortfolio/', // Reemplaza con tu URL de frontend
-    methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
-    credentials: true, // Habilita el uso de cookies, si es necesario
-  };
+  origin: '*',
+  methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
+  credentials: true, // Habilita el uso de cookies, si es necesario
+};
 // Habilita CORS
 app.use(cors(corsOptions));
 
