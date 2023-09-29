@@ -8,7 +8,7 @@ const cors = require("cors");
 const app = express();
 const port = process.env.PORT || 3001;
 const corsOptions = {
-    origin: 'http://localhost:3000', // Reemplaza con tu URL de frontend
+    origin: 'https://svarium.github.io/myPortfolio/', // Reemplaza con tu URL de frontend
     methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
     credentials: true, // Habilita el uso de cookies, si es necesario
   };
@@ -31,7 +31,7 @@ const transporter = nodemailer.createTransport({
 
 
 // Ruta para manejar el envío de correos electrónicos
-app.post("/send-email", (req, res) => {
+app.post("/send-email", (req, res) => { //la ruta
   const { firstName, lastName, email, phone, message } = req.body;
 
 

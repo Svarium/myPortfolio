@@ -44,7 +44,7 @@ export const Contact = () => {
     setButtonText("Enviando...");
   
     try {
-      const response = await axios.post("http://localhost:3001/send-email", formDetails, {
+      const response = await axios.post("https://myportfolio-qs6t.onrender.com/send-email", formDetails, {
         headers: {
           "Content-Type": "application/json",
         },
@@ -99,7 +99,7 @@ export const Contact = () => {
           </Col>
           <Col md={6}>
             <h2>Contactame</h2>
-            <form action="http://localhost:3001/send-email" method="POST" onSubmit={handleSubmit}>
+            <form action="https://myportfolio-qs6t.onrender.com/send-email" method="POST" onSubmit={handleSubmit}>
               <Row>
                 <Col sm={6} className="px-1">
                   <input
