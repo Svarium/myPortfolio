@@ -24,6 +24,23 @@ export const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    // Validar campos antes de enviar
+  if (
+    !formDetails.firstName ||
+    !formDetails.lastName ||
+    !formDetails.email ||
+    !formDetails.phone ||
+    !formDetails.message
+  ) {
+    // Mostrar una alerta de error si algún campo está vacío
+    Swal.fire({
+      icon: 'error',
+      title: 'Campos incompletos',
+      text: 'Por favor, completa todos los campos antes de enviar el correo.',
+    });
+    return; // Evita que se envíe la solicitud si hay campos vacíos
+  }
     setButtonText("Enviando...");
   
     try {
