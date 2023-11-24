@@ -2,6 +2,7 @@ import projImg1 from "../assets/img/3_B.jpg";
 import projImg2 from "../assets/img/books.jpg";
 import projImg3 from "../assets/img/drinks.jpg";
 import projImg4 from "../assets/img/cine.jpg";
+import projImg5 from "../assets/img/mercado liebre.jpg";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import { Container, Row, Col, Tab, Nav, TabContent } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
@@ -27,17 +28,23 @@ export const Projects = () => {
             title: "18.Drinks",
             description: "E-commerce venta de bebidas",
             imgUrl: projImg3,
-            link:"http://www.encope.gob.ar/"
+            link:"https://drinks-mt56.onrender.com"
           },   
           {
             title: "Proyecto Cine",
             description: "Sitio de reseña de películas",
             imgUrl: projImg4,
             link:"https://ismaelaxel.github.io/Proyecto_Cine.github.io/"
-          },                   
+          },   
+          {
+            title: "Mercado Liebre",
+            description: "Sitio Clon de Mercado Libre",
+            imgUrl: projImg5,
+            link:"https://mercado-liebre-6zi7.onrender.com/"
+          },                     
     ]
-const firstProjects = projects.slice(0,2);
-const lastProjects = projects.slice(2,4)
+const firstProjects = projects.slice(0,3);
+const lastProjects = projects.slice(3,5)
 
     return (
         <section className="project" id="project">

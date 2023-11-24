@@ -256,13 +256,14 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   line-height: 1;
   margin-bottom: 20px;
   display: block;
+  width: 95%;
 }
 .banner p {
   color: #B8B8B8;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
-  width: 96%;
+  width: 100%;
 }
 .banner button {
   color: #fff;
@@ -299,6 +300,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .txt-rotate > .wrap {
   border-right: 0.08em solid #666;
+}
+
+@media (min-width:375px) {
+	.banner h1 {
+    font-size: 50px;
+  }
 }
 
 /************ Skills Css ************/
@@ -375,13 +382,13 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .project .nav.nav-pills .nav-item {
   width: 33.33333%;
 }
-.project .nav.nav-pills .nav-link {
+.project .nav.nav-pills .nav-link { /*  */
   background-color: transparent;
   border-radius: 0;
   padding: 17px 0;
   color: #fff;
   width: 100%;
-  font-size: 17px;
+  font-size: 7px;
   letter-spacing: 0.8px;
   font-weight: 500;
   position: relative;
@@ -476,6 +483,12 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 
+@media (min-width:375px) {
+  .project .nav.nav-pills .nav-link {
+    font-size: 15px;
+  }
+}
+
 
 /************ Projects Css ************/
 .contact {
@@ -503,6 +516,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   letter-spacing: 0.8px;
   transition: 0.3s ease-in-out;
 }
+
+
 .contact form input:focus, .contact form textarea:focus {
   background: rgba(255, 255, 255, 1);
   color: #121212;
@@ -547,6 +562,11 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .contact form button:hover::before {
   width: 100%;
+}
+
+
+@media (min-width:375px) {
+
 }
 
 /************ Footer Css ************/

@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/myPortfolio/static/css/main.7c496943.css",
-    "main.js": "/myPortfolio/static/js/main.634d178d.js",
+    "main.css": "/myPortfolio/static/css/main.ea89feef.css",
+    "main.js": "/myPortfolio/static/js/main.d5073cf9.js",
     "static/js/787.128fc6e9.chunk.js": "/myPortfolio/static/js/787.128fc6e9.chunk.js",
     "static/media/cine.jpg": "/myPortfolio/static/media/cine.faab9aed5735382a8d3f.jpg",
     "static/media/drinks.jpg": "/myPortfolio/static/media/drinks.c248b4ebdd3b8a0a677d.jpg",
@@ -9,6 +9,7 @@
     "static/media/color-sharp.png": "/myPortfolio/static/media/color-sharp.bea361cfef80fefc2d1e.png",
     "static/media/color-sharp2.png": "/myPortfolio/static/media/color-sharp2.c87586c6c2f549cb4aa6.png",
     "static/media/back.jpg": "/myPortfolio/static/media/back.30a9badae03616abaf97.jpg",
+    "static/media/mercado liebre.jpg": "/myPortfolio/static/media/mercado liebre.13fb8a707f9fc730f799.jpg",
     "static/media/WhatsApp Image 2023-09-22 at 17.36.45.jpeg": "/myPortfolio/static/media/WhatsApp Image 2023-09-22 at 17.36.45.eed676116a35dff93df5.jpeg",
     "static/media/3_B.jpg": "/myPortfolio/static/media/3_B.85905923ef16a788ffde.jpg",
     "static/media/CentraNo2-Bold.ttf": "/myPortfolio/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
@@ -28,12 +29,12 @@
     "index.html": "/myPortfolio/index.html",
     "static/media/nav-icon1.svg": "/myPortfolio/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "static/media/nav-icon2.svg": "/myPortfolio/static/media/nav-icon2.178f497aa17b70c42df2a1a8c926ed01.svg",
-    "main.7c496943.css.map": "/myPortfolio/static/css/main.7c496943.css.map",
-    "main.634d178d.js.map": "/myPortfolio/static/js/main.634d178d.js.map",
+    "main.ea89feef.css.map": "/myPortfolio/static/css/main.ea89feef.css.map",
+    "main.d5073cf9.js.map": "/myPortfolio/static/js/main.d5073cf9.js.map",
     "787.128fc6e9.chunk.js.map": "/myPortfolio/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c496943.css",
-    "static/js/main.634d178d.js"
+    "static/css/main.ea89feef.css",
+    "static/js/main.d5073cf9.js"
   ]
 }

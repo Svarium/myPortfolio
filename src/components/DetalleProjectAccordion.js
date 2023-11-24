@@ -22,7 +22,7 @@ Las tecnologías que utilicé en el desarrollo incluyen Node.js, Express, MySQL,
 Trabajamos en conjunto, dividiendo el proyecto en 8 sprints, utilizando la metodología ágil Scrum. Cada sprint nos llevó más cerca de nuestro objetivo, y con el uso de tecnologías de vanguardia como Javascript, Node.js, Express, HTML 5, CSS 3, Bootstrap, MySQL (con Sequelize) y React, logramos convertir nuestras ideas en una realidad emocionante.
 
 Desde la etapa de maquetado hasta la implementación de las funciones, este proyecto representó un logro en equipo que nos llena de orgullo. Espero que disfrutes explorando el resultado final tanto como nosotros disfrutamos desarrollándolo.<br></br>
-<a href='https://guarida-del-lector-opxd.onrender.com'>Visita el Sitio</a>
+<a className='visita' href='https://guarida-del-lector-opxd.onrender.com'>Visita el Sitio</a>
     </Accordion.Body>
   </Accordion.Item>
   <Accordion.Item eventKey="2">
@@ -32,9 +32,9 @@ Desde la etapa de maquetado hasta la implementación de las funciones, este proy
 
 En cuanto a las funciones cruciales, como el registro de usuarios, el inicio de sesión, la gestión del carrito de compras y la opción de marcar productos como favoritos, hemos optado por utilizar MongoDB como gestor de base de datos. Esta elección nos ha permitido almacenar y acceder de manera eficiente a la información de los usuarios y los productos, brindando una experiencia sólida a nuestros clientes en el proceso de compra y navegación por el sitio web.
 <br></br>
-<a href='http://www.encope.gob.ar/'>Visita el Sitio</a>
+<a className='visita' href='http://www.encope.gob.ar/'>Visita el Sitio</a>
     </Accordion.Body>
-  </Accordion.Item>
+  </Accordion.Item> 
   <Accordion.Item eventKey="3">
     <Accordion.Header className="custom-header">Proyecto-Cine- Sitio Web con sinopsis y reseña de películas</Accordion.Header>
     <Accordion.Body>
@@ -43,7 +43,17 @@ En cuanto a las funciones cruciales, como el registro de usuarios, el inicio de 
 Durante esta experiencia, tuve la oportunidad de dar mis primeros pasos en la creación de sitios web utilizando tecnologías esenciales como HTML5, CSS y JavaScript para el desarrollo front-end. Además, este proyecto marcó mi primera incursión en el consumo de una API, lo que amplió mi comprensión de cómo los datos pueden ser aprovechados y presentados de manera efectiva en una aplicación web.
 
 El Proyecto Cine ocupa un lugar especial en mi corazón, ya que representa mis primeros pasos en un viaje de aprendizaje continuo y crecimiento en el mundo de la programación. Cada línea de código escrita y cada desafío superado en este proyecto me inspiraron a seguir explorando y desarrollando mis habilidades en este emocionante campo.<br></br>
-<a href='https://ismaelaxel.github.io/Proyecto_Cine.github.io/'>Visita el Sitio</a>
+<a className='visita' href='https://ismaelaxel.github.io/Proyecto_Cine.github.io/'>Visita el Sitio</a>
+
+    </Accordion.Body>
+  </Accordion.Item>
+  <Accordion.Item eventKey="4">
+    <Accordion.Header className="custom-header">Mercado Liebre</Accordion.Header>
+    <Accordion.Body>
+      Mercado Liebre es un clon del popular Ecommerce "Mercado Libre", el cual fue propuesto por Digital House como practica en el marco de su curso de Fullstack Node.js. Esta practica emuló los requerimientos de una empresa paso por paso para el desarrollo del sitio, desde el maquetado hasta las funcionalidades básicas de un sitio Ecommerce, como el registro, login y el sistema de altas bajas y modificación. 
+   <br></br>
+<a className='visita' href='https://mercado-liebre-6zi7.onrender.com/'>Visita el Sitio</a>
+
     </Accordion.Body>
   </Accordion.Item>
 </Accordion>      

@@ -65,19 +65,19 @@ Mis habilidades blandas incluyen una fuerte ética de trabajo, capacidad para ge
                                 <h5>Sequelize</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="image"/>
+                                <img src={meter2} alt="image"/>
                                 <h5>MongoDB</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="image"/>
+                                <img src={meter3} alt="image"/>
                                 <h5>Javascript</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="image"/>
+                                <img src={meter3} alt="image"/>
                                 <h5>Git</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt="image"/>
+                                <img src={meter3} alt="image"/>
                                 <h5>css3</h5>
                             </div>
                             <div className="item">
