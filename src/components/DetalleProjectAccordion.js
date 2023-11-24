@@ -32,7 +32,7 @@ Desde la etapa de maquetado hasta la implementación de las funciones, este proy
 
 En cuanto a las funciones cruciales, como el registro de usuarios, el inicio de sesión, la gestión del carrito de compras y la opción de marcar productos como favoritos, hemos optado por utilizar MongoDB como gestor de base de datos. Esta elección nos ha permitido almacenar y acceder de manera eficiente a la información de los usuarios y los productos, brindando una experiencia sólida a nuestros clientes en el proceso de compra y navegación por el sitio web.
 <br></br>
-<a className='visita' href='http://www.encope.gob.ar/'>Visita el Sitio</a>
+<a className='visita' href='https://drinks-mt56.onrender.com'>Visita el Sitio</a>
     </Accordion.Body>
   </Accordion.Item> 
   <Accordion.Item eventKey="3">
